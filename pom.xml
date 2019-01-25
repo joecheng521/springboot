@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.qjc</groupId>
+	<artifactId>springboot</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<!-- 第一章 spring boot 项目创建 -->
+		<module>spring-boot-cretate</module>
+		<!-- 第二章 spring boot 项目tomcat启动方式 -->
+		<module>spring-boot-cretate-tomcat</module>
+		<!-- 第三章 spring boot 项目获取文件的不同方式 -->
+		<module>spring-boot-config</module>
+		<!-- 第四章 spring boot 项目集成mybatis,swagger2方式 -->
+		<module>spring-boot-mybatis-swagger</module>
+		<module>spring-boot-mybatis-druid</module>
+	</modules>
+</project>

@@ -5,8 +5,6 @@ package com.qjc.service;
  * @version 1.0.0
  */
 
-import java.util.List;
-
 import com.qjc.entry.UserInfo;
 
 public interface IUserInfoService {
@@ -16,10 +14,4 @@ public interface IUserInfoService {
 	 * @return
 	 */
 	public UserInfo findUserInfoById(Long id);
-	
-	/**
-	 * 查询全部用户的姓名
-	 * @return
-	 */
-	public List<String> findUserAllByName();
 }

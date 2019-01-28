@@ -1,7 +1,5 @@
 package com.qjc.service.impl;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,11 +21,6 @@ public class UserInfoServiceImpl implements IUserInfoService {
 	public UserInfo findUserInfoById(Long id) {
 		// TODO Auto-generated method stub
 		return userInfoMapper.selectByPrimaryKey(id);
-	}
-	@Override
-	public List<String> findUserAllByName() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }

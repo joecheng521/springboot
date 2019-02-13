@@ -16,5 +16,6 @@
 		<!-- 第四章 spring boot 项目集成mybatis,swagger2方式 -->
 		<module>spring-boot-mybatis-swagger</module>
 		<module>spring-boot-mybatis-druid</module>
+		<module>spring-boot-jwt-security</module>
 	</modules>
 </project>

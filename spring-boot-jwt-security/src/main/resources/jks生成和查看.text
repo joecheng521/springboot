@@ -1,0 +1,2 @@
+keytool -genkeypair -alias "jwt" -keyalg "RSA" -keystore "jwt.jks" //生成
+keytool -list -rfc -keystore jwt.jks -storepass 654321 //查看
